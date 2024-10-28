@@ -10,24 +10,24 @@
 //         {
 //             smallest = nums[i];
 //         }
-        
+
 //     }
-//     cout<<"smallest: "<<smallest<<endl; 
+//     cout<<"smallest: "<<smallest<<endl;
 //     return 0;
 // }
 
-
-//another way using the min function
-#include<iostream>
+// another way using the min function
+#include <iostream>
 using namespace std;
-int main(){
-    int nums[] ={5,15,22,1,-15,24};
-    int size =6;
-    int smallest =INT_MAX;
+int main()
+{
+    int nums[] = {5, 15, 22, 1, -15, 24};
+    int size = 6;
+    int smallest = INT_MAX;
     for (int i = 0; i < size; i++)
     {
-        smallest =min(nums[i],smallest);
+        smallest = min(nums[i], smallest);
     }
-    cout<<"smallest: "<<smallest<<endl; 
+    cout << "smallest: " << smallest << endl;
     return 0;
 }
