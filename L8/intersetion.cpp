@@ -7,7 +7,7 @@ void intersection(int a[], int b[], int sizeA, int sizeB) {
         for (int j = 0; j < sizeB; j++) {
             if (a[i] == b[j]) {
                 cout << a[i] << " ";
-                break;  // Move to the next element in `a` to avoid duplicates
+                break;
             }
         }
     }
